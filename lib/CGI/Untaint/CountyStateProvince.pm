@@ -143,7 +143,7 @@ L<http://search.cpan.org/dist/CGI-Untaint-CountyStateProvince>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2012 Nigel Horne.
+Copyright 2012-2017 Nigel Horne.
 
 This program is released under the following licence: GPL
 
