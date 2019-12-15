@@ -22,7 +22,7 @@ sudo: false
 before_install:
   # - sudo apt-get update -q
   # - sudo apt-get install sqlite3 libdbi-perl libdbd-sqlite3-perl
-  - cpanm -n Devel::Cover::Report::Coveralls Test::Pod::Spelling::CommonMistakes Test::Portability::Files Test::Taint Test::Carp
+  - cpanm -iqn Devel::Cover::Report::Coveralls Test::Pod::Spelling::CommonMistakes Test::Portability::Files Test::Taint Test::Carp
 
 install:
   - cpanm -v --installdeps --notest .
@@ -43,4 +43,4 @@ jobs:
       script:
         - perl Makefile.PL
         - gmake
-        - gmake test
+       - gmake test

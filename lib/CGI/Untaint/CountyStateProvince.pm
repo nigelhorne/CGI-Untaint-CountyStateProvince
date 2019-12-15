@@ -123,10 +123,6 @@ You can also look for information at:
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=CGI-Untaint-CountyStateProvince>
 
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/CGI-Untaint-CountyStateProvince>
-
 =item * CPAN Ratings
 
 L<http://cpanratings.perl.org/d/CGI-Untaint-CountyStateProvince>
@@ -143,10 +139,9 @@ L<http://search.cpan.org/dist/CGI-Untaint-CountyStateProvince>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2012-2017 Nigel Horne.
+Copyright 2012-2019 Nigel Horne.
 
-This program is released under the following licence: GPL
-
+This program is released under the following licence: GPL2
 
 =cut
 
