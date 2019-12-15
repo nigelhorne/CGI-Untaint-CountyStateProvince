@@ -1,11 +1,11 @@
-# CGI::Untaint::CountyStateProvince
+# NAME
 
-Validate a state, county or province in a
+CGI::Untaint::CountyStateProvince - Validate a state, county or province in a
 CGI script.
 
 # VERSION
 
-Version 0.05
+Version 0.06
 
 # SYNOPSIS
 
@@ -13,8 +13,8 @@ CGI::Untaint::CountyStateProvince is a subclass of CGI::Untaint used to
 validate if the given user data is a valid county/state/province.
 
 This class is not to be instantiated, instead a subclass must be
-instantiated. For example [CGI::Untaint::CountyStateProvince::GB](https://metacpan.org/pod/CGI::Untaint::CountyStateProvince::GB) would
-validate against a British county, [CGI::Untaint::CountyStateProvince::US](https://metacpan.org/pod/CGI::Untaint::CountyStateProvince::US)
+instantiated. For example [CGI::Untaint::CountyStateProvince::GB](https://metacpan.org/pod/CGI%3A%3AUntaint%3A%3ACountyStateProvince%3A%3AGB) would
+validate against a British county, [CGI::Untaint::CountyStateProvince::US](https://metacpan.org/pod/CGI%3A%3AUntaint%3A%3ACountyStateProvince%3A%3AUS)
 would validate against a US state, and so on.
 
     use CGI::Info;
@@ -72,10 +72,6 @@ You can also look for information at:
 
     [http://rt.cpan.org/NoAuth/Bugs.html?Dist=CGI-Untaint-CountyStateProvince](http://rt.cpan.org/NoAuth/Bugs.html?Dist=CGI-Untaint-CountyStateProvince)
 
-- AnnoCPAN: Annotated CPAN documentation
-
-    [http://annocpan.org/dist/CGI-Untaint-CountyStateProvince](http://annocpan.org/dist/CGI-Untaint-CountyStateProvince)
-
 - CPAN Ratings
 
     [http://cpanratings.perl.org/d/CGI-Untaint-CountyStateProvince](http://cpanratings.perl.org/d/CGI-Untaint-CountyStateProvince)
@@ -88,6 +84,6 @@ You can also look for information at:
 
 # LICENSE AND COPYRIGHT
 
-Copyright 2012-2017 Nigel Horne.
+Copyright 2012-2019 Nigel Horne.
 
-This program is released under the following licence: GPL
+This program is released under the following licence: GPL2
