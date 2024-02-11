@@ -48,7 +48,7 @@ would validate against a US state, and so on.
 
 	CGI::Untaint::CountyStateProvince::US->import();
     } else {
-	die 'Unsupported country ' . $params->{'country'};
+	die 'Unsupported country ', $params->{'country'};
     }
     my $u = CGI::Untaint->new($params);
     my $csp = $u->extract(-as_CountyStateProvince => 'state');
