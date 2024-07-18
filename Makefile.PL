@@ -13,7 +13,7 @@ WriteMakefile(
     PL_FILES            => {},
     BUILD_REQUIRES => {
 	'Test::Most' => 0,
-	'Test::More' => 0.82,      # Need new_ok()
+	'Test::Needs' => 0,
 	'Test::NoWarnings' => 0,
 	# 'Test::Kwalitee' => 0,
     },
