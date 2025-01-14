@@ -64,7 +64,7 @@ Validates the data.
 
 sub _untaint_re {
 	# Only allow letters and spaces
-	return qr/^([a-zA-z\s]+)$/;
+	return qr/^([a-zA-Z\s]+)$/;
 }
 
 sub is_valid {
@@ -105,7 +105,6 @@ automatically be notified of progress on your bug as I make changes.
 
 CGI::Untaint
 
-
 =head1 SUPPORT
 
 You can find documentation for this module with the perldoc command.
@@ -131,7 +130,7 @@ L<http://search.cpan.org/dist/CGI-Untaint-CountyStateProvince>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2012-2024 Nigel Horne.
+Copyright 2012-2025 Nigel Horne.
 
 This program is released under the following licence: GPL2
 

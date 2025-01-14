@@ -30,4 +30,5 @@ t/pod.t
 t/port.t
 t/prereq.t
 t/snippets.t
+t/untaint_re.t
 t/vars.t
