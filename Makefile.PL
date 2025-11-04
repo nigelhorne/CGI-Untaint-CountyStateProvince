@@ -13,7 +13,7 @@ if($^O eq 'darwin') {
 
 WriteMakefile(
     NAME                => 'CGI::Untaint::CountyStateProvince',
-    AUTHOR              => q{Nigel Horne <njh@bandsman.co.uk>},
+    AUTHOR              => q{Nigel Horne <njh@nigelhorne.com>},
     VERSION_FROM        => 'lib/CGI/Untaint/CountyStateProvince.pm',
     ABSTRACT_FROM        => 'lib/CGI/Untaint/CountyStateProvince.pm',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002

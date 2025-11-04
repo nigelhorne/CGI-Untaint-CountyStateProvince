@@ -1,7 +1,6 @@
 # NAME
 
-CGI::Untaint::CountyStateProvince - Validate a state, county or province in a
-CGI script.
+CGI::Untaint::CountyStateProvince - Validate a state, county or province in a CGI script
 
 # VERSION
 
@@ -48,7 +47,7 @@ Validates the data.
 
 # AUTHOR
 
-Nigel Horne, `<njh at bandsman.co.uk>`
+Nigel Horne, `<njh at nigelhorne.com>`
 
 # BUGS
 

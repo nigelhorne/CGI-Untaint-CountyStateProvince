@@ -8,8 +8,7 @@ use base 'CGI::Untaint::object';
 
 =head1 NAME
 
-CGI::Untaint::CountyStateProvince - Validate a state, county or province in a
-CGI script.
+CGI::Untaint::CountyStateProvince - Validate a state, county or province in a CGI script
 
 =head1 VERSION
 
@@ -68,7 +67,7 @@ sub _untaint_re {
 }
 
 sub is_valid {
-	my $self = shift;
+	my $self = $_[0];
 
 	unless(@countries) {
 		carp 'You must specify at least one country';
@@ -93,7 +92,7 @@ sub is_valid {
 
 =head1 AUTHOR
 
-Nigel Horne, C<< <njh at bandsman.co.uk> >>
+Nigel Horne, C<< <njh at nigelhorne.com> >>
 
 =head1 BUGS
 
